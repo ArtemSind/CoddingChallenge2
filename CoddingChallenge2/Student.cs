@@ -67,7 +67,7 @@ namespace CoddingChallenge2
 
             public void ShowAverageGrade()
             {
-            Console.WriteLine($"Student {this.LastName} {this.FirstName}:");
+            Console.WriteLine($"Student {this.FirstName} {this.LastName}:");
             Console.WriteLine($"\t Average numerical grade: {this.AverageNumGrade}");
             Console.WriteLine($"\t Letter grade: {this.LetterGrade}");
             Console.WriteLine();
